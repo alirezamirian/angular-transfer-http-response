@@ -1,0 +1,36 @@
+{
+  "name": "angular-transfer-http-response",
+  "version": "0.0.1",
+  "description": "Angular module for seemlessly transfering server-executed http responses to front-end",
+  "main": "index.js",
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json",
+    "publish-on-npm": "npm publish ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezamirian/angular-transfer-http-response.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Alireza Mirian <alireza.mirian@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirezamirian/angular-transfer-http-response/issues"
+  },
+  "homepage": "https://github.com/alirezamirian/angular-transfer-http-response#readme",
+  "dependencies": {
+    "ng-packagr": "^1.6.0"
+  },
+  "peerDependencies": {
+    "@angular/core": "^5.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "rxjs": "^5.5.0",
+    "typescript": "^2.4.2"
+  }
+}
