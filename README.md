@@ -1,6 +1,6 @@
 Angular Transfer Http Response
 
-Angular module to seamlessly transfer server-executed http responses to front-end.
+Angular module to seamlessly transfer and reuse server-executed http responses in front-end.
 
 # Installation
 ```bash
