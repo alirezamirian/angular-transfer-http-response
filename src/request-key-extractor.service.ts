@@ -1,12 +1,12 @@
 import {Inject, Injectable, InjectionToken, Optional} from '@angular/core';
 import {HttpRequest} from '@angular/common/http';
 
-export const REQUEST_CACHE_BASE_URLS = new InjectionToken<string []>('request cache base url');
+export const TRANSFER_RESPONSE_BASE_URLS = new InjectionToken<string []>('request cache base url');
 
 @Injectable()
 export class RequestKeyExtractorService {
 
-  constructor(@Optional() @Inject(REQUEST_CACHE_BASE_URLS) private baseUrls: string[]) {
+  constructor(@Optional() @Inject(TRANSFER_RESPONSE_BASE_URLS) private baseUrls: string[]) {
     this.baseUrls = ([].concat(this.baseUrls || [])).reduce((result, item) => result.concat(item), []);
   }
 

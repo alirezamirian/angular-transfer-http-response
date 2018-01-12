@@ -1,6 +1,6 @@
 {
   "name": "angular-transfer-http-response",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Angular module for transfering server-executed http responses to front-end",
   "main": "index.js",
   "scripts": {
