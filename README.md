@@ -57,3 +57,5 @@ With this configuration, response of a request to **https://my.domain/api/some-p
 as response of the first request to **/api/some-path**.
 You can provide more than one base url and they will matched correspondingly.
 
+[Read more](https://medium.com/@alireza.mirian/reusing-server-side-http-responses-in-front-end-when-using-ssr-in-angular-970d3efaea59).
+
